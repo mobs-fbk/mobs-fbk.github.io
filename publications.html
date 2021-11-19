@@ -10,8 +10,6 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Favicons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
 
   <link rel="apple-touch-icon" href="logo/favicon.png" sizes="180x180">
   <link rel="icon" href="logo/favicon_32x32.png" sizes="32x32" type="image/png">
@@ -104,7 +102,7 @@ Standard kernel methods for machine learning usually struggle when dealing with 
 <p style="margin-top:-10px;"><details style="margin-left:5%;">
 
 <summary>S. Chowdhary, A. Kumar, G. Cencetti, I. Iacopini, F. Battiston, 
-<i>Simplicial contagion in temporal higher-order networks</i> (2021). <a href='https://arxiv.org/abs/2105.04455'> <i class="fa-solid fa-file-pdf"></i> Preprint </a>
+<i>Simplicial contagion in temporal higher-order networks</i> (2021). <a href='https://arxiv.org/abs/2105.04455'> <i class="fa fa-file-pdf"></i> Preprint </a>
 </summary>
 
 <small>
@@ -415,6 +413,39 @@ This chapter deals with kernel methods as a special class of techniques for surr
 
 <p style="margin-top:-10px;"><details style="margin-left:5%;">
 
+<summary>P. Ardino, M. de Nadai, B. Lepri, E. Ricci, S. Lathuili&eacute;re, 
+<i>Click To Move: Controlling Video Generation With Sparse Motion</i>, 
+ IEEE/CVF International Conference on Computer Vision (ICCV) (2021). <a href='https://arxiv.org/abs/2108.08815'> <i class="fa fa-file-pdf"></i> Preprint </a> <a href='https://arxiv.org/abs/2108.08815'> <i class="ai ai-doi"> </i>DOI</a>
+</summary>
+
+<small>
+
+<blockquote>
+This paper introduces Click to Move (C2M), a novel framework for video generation where the user can control the motion of the synthesized video through mouse clicks specifying simple object trajectories of the key objects in the scene. Our model receives as input an initial frame, its corresponding segmentation map and the sparse motion vectors encoding the input provided by the user. It outputs a plausible video sequence starting from the given frame and with a motion that is consistent with user input. Notably, our proposed deep architecture incorporates a Graph Convolution Network (GCN) modelling the movements of all the objects in the scene in a holistic manner and effectively combining the sparse user motion information and image features. Experimental results show that C2M outperforms existing methods on two publicly available datasets, thus demonstrating the effectiveness of our GCN framework at modelling object interactions.	
+</blockquote>
+
+<pre>
+  <code class="bibtex">
+@InProceedings{Ardino2021C2M,
+    author    = {Ardino, Pierfrancesco and De Nadai, Marco and Lepri, Bruno and Ricci, Elisa and Lathuili\`ere, St\'ephane},
+    title     = {Click To Move: Controlling Video Generation With Sparse Motion},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {14749-14758}
+}
+  </code>
+</pre>
+</small>
+
+</details>
+
+</p>
+
+
+
+<p style="margin-top:-10px;"><details style="margin-left:5%;">
+
 <summary>B. Haasdonk, B. Hamzi, G. Santin, D. Wittwar, 
 <i>Kernel methods for center manifold approximation and a weak data-based version of the Center Manifold Theorem</i>, 
 Physica D: Nonlinear Phenomena (2021). <a href='https://arxiv.org/abs/2012.00338'> <i class="fa fa-file-pdf"></i> Preprint </a> <a href='https://doi.org/10.1016/j.physd.2021.133007'> <i class="ai ai-doi"> </i>DOI</a>
@@ -586,6 +617,40 @@ Kernel based methods provide a way to reconstruct potentially high-dimensional f
   doi     		   = {https://doi.org/10.1016/j.jat.2020.105508},
   url   		   = {http://www.sciencedirect.com/science/article/pii/S0021904520301441},
 }
+  </code>
+</pre>
+</small>
+
+</details>
+
+</p>
+
+
+
+<p style="margin-top:-10px;"><details style="margin-left:5%;">
+
+<summary>P. Ardino, Y. Liu, E. Ricci, B. Lepri and M. de Nadai, 
+<i>Semantic-Guided Inpainting Network for Complex Urban Scenes Manipulation</i>, 
+ International Conference on Pattern Recognition (ICPR) (2021). <a href='https://doi.org/10.1109/ICPR48806.2021.9412690'> <i class="fa fa-file-pdf"></i> Preprint </a> <a href='https://doi.org/10.1109/ICPR48806.2021.9412690'> <i class="ai ai-doi"> </i>DOI</a>
+</summary>
+
+<small>
+
+<blockquote>
+Manipulating images of complex scenes to reconstruct, insert and/or remove specific object instances is a challenging task. Complex scenes contain multiple semantics and objects, which are frequently cluttered or ambiguous, thus hampering the performance of inpainting models. Conventional techniques often rely on structural information such as object contours in multi-stage approaches that generate unreliable results and boundaries. In this work, we propose a novel deep learning model to alter a complex urban scene by removing a user-specified portion of the image and coherently inserting a new object (e.g. car or pedestrian) in that scene. Inspired by recent works on image inpainting, our proposed method leverages the semantic segmentation to model the content and structure of the image, and learn the best shape and location of the object to insert. To generate reliable results, we design a new decoder block that combines the semantic segmentation and generation task to guide better the generation of new objects and scenes, which have to be semantically consistent with the image. Our experiments, conducted on two large-scale datasets of urban scenes (Cityscapes and Indian Driving), show that our proposed approach successfully address the problem of semantically-guided inpainting of complex urban scene.	
+</blockquote>
+
+<pre>
+  <code class="bibtex">
+@INPROCEEDINGS{Ardino2021SGI,
+  author={Ardino, Pierfrancesco and Liu, Yahui and Ricci, Elisa and Lepri, Bruno and de Nadai, Marco},
+  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, 
+  title={Semantic-Guided Inpainting Network for Complex Urban Scenes Manipulation}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={9280-9287},
+  doi={10.1109/ICPR48806.2021.9412690}}
   </code>
 </pre>
 </small>
@@ -880,6 +945,42 @@ Crystal calorimeters have a long history of pushing the frontier on high-resolut
 <pre>
   <code class="bibtex">
 
+  </code>
+</pre>
+</small>
+
+</details>
+
+</p>
+
+
+
+<p style="margin-top:-10px;"><details style="margin-left:5%;">
+
+<summary>L. Di Liello, P. Ardino, J. Gobbi, P. Morettin, S. Teso and A. Passerini, 
+<i>Efficient Generation of Structured Objects with Constrained Adversarial Networks</i>, 
+ Advances in Neural Information Processing Systems (2020). <a href='https://proceedings.neurips.cc/paper/2020/file/a87c11b9100c608b7f8e98cfa316ff7b-Paper.pdf'> <i class="fa fa-file-pdf"></i> Preprint </a> <a href='https://proceedings.neurips.cc/paper/2020/file/a87c11b9100c608b7f8e98cfa316ff7b-Paper.pdf'> <i class="ai ai-doi"> </i>DOI</a>
+</summary>
+
+<small>
+
+<blockquote>
+Generative Adversarial Networks (GANs) struggle to generate structured objects like molecules and game maps. The issue is that structured objects must satisfy hard requirements (eg, molecules must be chemically valid) that are difficult to acquire from examples alone. As a remedy, we propose Constrained Adversarial Networks (CANs), an extension of GANs in which the constraints are embedded into the model during training. This is achieved by penalizing the generator proportionally to the mass it allocates to invalid structures. In contrast to other generative models, CANs support efficient inference of valid structures (with high probability) and allows to turn on and off the learned constraints at inference time. CANs handle arbitrary logical constraints and leverage knowledge compilation techniques to efficiently evaluate the disagreement between the model and the constraints. Our setup is further extended to hybrid logical-neural constraints for capturing very complex constraints, like graph reachability. An extensive empirical analysis shows that CANs efficiently generate valid structures that are both high-quality and novel.	
+</blockquote>
+
+<pre>
+  <code class="bibtex">
+@inproceedings{DiLiello2020Can,
+ author = {Di Liello, Luca and Ardino, Pierfrancesco and Gobbi, Jacopo and Morettin, Paolo and Teso, Stefano and Passerini, Andrea},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {14663--14674},
+ publisher = {Curran Associates, Inc.},
+ title = {Efficient Generation of Structured Objects with Constrained Adversarial Networks},
+ url = {https://proceedings.neurips.cc/paper/2020/file/a87c11b9100c608b7f8e98cfa316ff7b-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}
   </code>
 </pre>
 </small>
